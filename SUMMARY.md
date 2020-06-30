@@ -1,0 +1,19 @@
+# Table of contents
+
+* [Welcome to TagViewer's documentation!](README.md)
+* [Installation](installation.md)
+* [About TagViewer](about-tagviewer.md)
+* [Beginner's Guide](beginners-guide/README.md)
+  * [The Interface](beginners-guide/the-interface.md)
+  * [TagSpaces](beginners-guide/tagspaces.md)
+* [Step-by-Step Tutorial](step-by-step-tutorial/README.md)
+  * [Creating a TagSpace and Adding Media](step-by-step-tutorial/creating-a-tagspace-and-adding-media.md)
+* [Configuration Guide](configuration-guide/README.md)
+  * [Problem & Solution](configuration-guide/problem-and-solution.md)
+  * [Themes](configuration-guide/themes.md)
+  * [JSON Configuration](configuration-guide/json-configuration.md)
+  * [Settings](configuration-guide/settings.md)
+* [For Developers](for-developers/README.md)
+  * [Contributing](for-developers/contributing.md)
+  * [Packaging and Making Distributables](for-developers/packaging-and-making-distributables.md)
+
