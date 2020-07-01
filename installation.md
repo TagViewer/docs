@@ -12,9 +12,7 @@ Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefor
 
 ## MacOS
 
-Download the DMG file, then open it and drag it into your Applications folder.
-
-**Screenshots**
+Since you need a Mac to make a package for MacOS, at the moment there are no packages for MacOS. If you are able to package the application for MacOS, please [contact me](mailto:mattf53190@gmail.com?subject=TagViewer:+I+can+package+for+MacOS) so I can add it to the releases.
 
 ## Linux
 
@@ -24,11 +22,11 @@ Download the .deb and install it.
 
 ### RPM-based Distros
 
-The process is essentially the same. Download the .rpm and install it,.
+Download the .rpm and install it.
 
 ### `pacman` Distros
 
-Download _the package_ from the AUR and install it with `makepkg -si`.
+Though I'd love to offer a pacman package, I can't seem to find how to put an alternation in the depends field of the PKGBUILD, which is necessary for TagViewer. If you can help with this, please contact me. For now, use the .zip package.
 
 ### "Build from source"
 
