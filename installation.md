@@ -38,14 +38,26 @@ If your operating system isn't currently supported, you can also perform a manua
 
 ### Windows
 
-For now, since Windows isn't natively supported, you'll need to install the Windows Subsystem for Linux by following [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10). After that, follow the steps in the Linux section.
+For now, since Windows isn't natively supported, you'll need to install the Windows Subsystem for Linux by following [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10). After that, follow the steps in the Linux section. This is highly experimental and is by no means guaranteed to work.
 
 ### Mac
 
-Move the entire root folder of the .zip \(`tagviewer-linux-x64`\) to any location you'd like, as long as it's permanent. You may want to make a shortcut to the binary inside the folder \(relatively located at `tagviewer-linux-x64/tagviewer`\), because it's what you'll use to run TagViewer.
+Not supported.
 
 ### Linux
 
+* Install the following dependencies:
+  * libgtk-3-0
+  * libnotify4
+  * libnss3
+  * libxss1
+  * libxtst6
+  * xdg-utils
+  * libatspi2.0-0
+  * libdrm2
+  * libgbm1
+  * libxcb-dri3-0
+  * kde-cli-tools \| kde-runtime \| trash-cli \| libglib2.0-bin \| gvfs-bin \(any one of these\)
 * Copy all of the contents inside the folder to `/usr/lib/tagviewer`.
 * Create a .desktop file in `/usr/share/applications` with the following contents:
 
@@ -88,6 +100,8 @@ mkdir -p /usr/share/lintian/overrides
 touch /usr/share/lintian/overrides/tagviewer
 cp resources/app/icons/png/512x512.png /usr/share/pixmaps/tagviewer.png
 ln -s /usr/lib/tagviewer/tagviewer /usr/bin/tagviewer
+chown root /usr/lib/tagviewer/chrome-sandbox
+chmod 4755 /usr/lib/tagviewer/chrome-sandbox
 exit
 ```
 
