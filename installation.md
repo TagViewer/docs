@@ -8,9 +8,7 @@ Begin by opening the latest release on GitHub. There, you'll see the binaries an
 
 ## Windows
 
-You can use the .exe installer or the MSI. Download and run the setup .exe / MSI file.
-
-**Screenshots**
+Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefore, for now there are no binaries available for Windows. If you are able to package the application on Windows, please [contact me](mailto:mattf53190@gmail.com?subject=TagViewer:+I+can+package+for+Windows) so I can add it to the releases.
 
 ## MacOS
 
@@ -22,11 +20,11 @@ Download the DMG file, then open it and drag it into your Applications folder.
 
 ### Debian-based Distros
 
-You have two options. Either download the .deb and install it; or add `ppa:tagviewer/tagviewer` and install TagViewer using APT.
+Download the .deb and install it.
 
 ### RPM-based Distros
 
-The process is essentially the same. Either download the .rpm and install it, or add _the repository RPM_ and then install TagViewer using your package manager.
+The process is essentially the same. Download the .rpm and install it,.
 
 ### `pacman` Distros
 
