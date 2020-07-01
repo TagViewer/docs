@@ -70,9 +70,10 @@ Categories=Utility;Graphics;
 Alternatively, enter the commands below in the terminal, from the `tagviewer-linux-x64` folder. You may need to give your password, but rest assured that it is only used to copy files into system directories, and the below commands do exactly what is listed above.
 
 ```bash
-sudo mkdir -p /usr/lib/tagviewer
-sudo cp -r . /usr/lib/tagviewer
-sudo cat << EOF > /usr/share/applications/tagviewer.desktop
+sudo su
+mkdir -p /usr/lib/tagviewer
+cp -r . /usr/lib/tagviewer
+cat << EOF > /usr/share/applications/tagviewer.desktop
 [Desktop Entry]
 Name=tagviewer
 Comment=A simple program that allows viewing of images under any tag, as well as modifying those tags.
@@ -83,9 +84,10 @@ Type=Application
 StartupNotify=true
 Categories=Utility;Graphics;
 EOF
-sudo mkdir -p /usr/share/lintian/overrides
-sudo touch /usr/share/lintian/overrides/tagviewer
-sudo cp resources/app/icons/png/512x512.png /usr/share/pixmaps/tagviewer.png
-sudo ln -s /usr/lib/tagviewer/tagviewer /usr/bin/tagviewer
+mkdir -p /usr/share/lintian/overrides
+touch /usr/share/lintian/overrides/tagviewer
+cp resources/app/icons/png/512x512.png /usr/share/pixmaps/tagviewer.png
+ln -s /usr/lib/tagviewer/tagviewer /usr/bin/tagviewer
+exit
 ```
 
