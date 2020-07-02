@@ -26,7 +26,7 @@ Download the .rpm and install it.
 
 ### `pacman` Distros
 
-Download only the PKGBUILD file from the repository, or use [this link](https://raw.githubusercontent.com/TagViewer/tagviewer/main/PKGBUILD). Put it in its own directory \(for example, `~/Downloads/tagviewer`\) and run `makepkg -si`.
+Download the PKGBUILD, put it in its own directory \(for example, `~/Downloads/tagviewer`\), and install it with `makepkg -si`. I would include the PKGBUILD in the repository, but I can't figure out how to make a checksum for a directory that contains a file that contains that checksum!
 
 ### Snap, Flatpak, etc.
 
