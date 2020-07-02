@@ -26,7 +26,7 @@ Download the .rpm and install it.
 
 ### `pacman` Distros
 
-Though I'd love to offer a pacman package, I can't seem to find how to put an alternation in the depends field of the PKGBUILD, which is necessary for TagViewer. If you can help with this, please contact me. For now, use the .zip package.
+Download only the PKGBUILD file from the repository, or use [this link](https://raw.githubusercontent.com/TagViewer/tagviewer/main/PKGBUILD). Put it in its own directory \(for example, `~/Downloads/tagviewer`\) and run `makepkg -si`.
 
 ### Snap, Flatpak, etc.
 
@@ -78,6 +78,7 @@ Categories=Utility;Graphics;
 * Create an empty file at `/usr/share/lintian/overrides/tagviewer`. You may need to create the directories.
 * Copy the file at the relative path `tagviewer-linux-x64/resources/app/icons/png/512x512.png` to `/usr/share/pixmaps/tagviewer.png`.
 * Make a symlink from `/usr/bin/tagviewer` to `/usr/lib/tagviewer/tagviewer`.
+* Optionally, copy the same .desktop file above to your desktop to have a shortcut.
 
 Alternatively, enter the commands below in the terminal, from the `tagviewer-linux-x64` folder. You may need to give your password, but rest assured that it is only used to copy files into system directories, and the below commands do exactly what is listed above.
 
@@ -96,12 +97,17 @@ Type=Application
 StartupNotify=true
 Categories=Utility;Graphics;
 EOF
+chmod +x /usr/share/applications/tagviewer.desktop
 mkdir -p /usr/share/lintian/overrides
 touch /usr/share/lintian/overrides/tagviewer
 cp resources/app/icons/png/512x512.png /usr/share/pixmaps/tagviewer.png
 ln -s /usr/lib/tagviewer/tagviewer /usr/bin/tagviewer
-chown root /usr/lib/tagviewer/chrome-sandbox
-chmod 4755 /usr/lib/tagviewer/chrome-sandbox
 exit
+```
+
+And to copy the shortcut from /usr/share/applications/tagviewer.desktop to your desktop, run the following:
+
+```bash
+cp /usr/share/applications/tagviewer.desktop ~/Desktop/tagviewer.desktop
 ```
 
