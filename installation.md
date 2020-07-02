@@ -100,7 +100,7 @@ EOF
 chmod +x /usr/share/applications/tagviewer.desktop
 mkdir -p /usr/share/lintian/overrides
 touch /usr/share/lintian/overrides/tagviewer
-cp resources/app/icons/png/512x512.png /usr/share/pixmaps/tagviewer.png
+cp resources/app/icons/png/1024x1024.png /usr/share/pixmaps/tagviewer.png
 ln -s /usr/lib/tagviewer/tagviewer /usr/bin/tagviewer
 exit
 ```
