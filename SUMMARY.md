@@ -8,7 +8,7 @@
   * [TagSpaces](beginners-guide/tagspaces.md)
   * [Media](beginners-guide/media.md)
   * [Filters and Sorting](beginners-guide/filters-and-sorting.md)
-  * [Untitled](beginners-guide/untitled.md)
+  * [Miscellaneous](beginners-guide/untitled.md)
 * [Step-by-Step Tutorial](step-by-step-tutorial/README.md)
   * [Creating a TagSpace and Adding Media](step-by-step-tutorial/creating-a-tagspace-and-adding-media.md)
 * [Configuration Guide](configuration-guide/README.md)
