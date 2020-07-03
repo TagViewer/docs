@@ -16,4 +16,5 @@
 * [For Developers](for-developers/README.md)
   * [Contributing](for-developers/contributing.md)
   * [Packaging and Making Distributables](for-developers/packaging-and-making-distributables.md)
+* [Release Changelog](release-changelog.md)
 
