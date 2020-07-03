@@ -65,7 +65,7 @@ Whether to offer the most recently opened TagSpace for reopening in the central 
 
 {% code title="config.json" %}
 ```javascript
-"offerPrevLocation": false // do not offer it even if one is saved
+"offerPrevLocation": false // do not offer it even if it's available
 ```
 {% endcode %}
 
@@ -75,31 +75,9 @@ Whether TagViewer should automatically reopen the previously open TagSpace after
 
 {% code title="config.json" %}
 ```javascript
-"resumeSessionOnRestart": true // resume session on restart if one is saved
+"resumeSessionOnRestart": true // resume session on restart if it is available
 ```
 {% endcode %}
-
-### `defaultTags`
-
-The default tags shown when you're creating a new TagSpace. The defaults are "Favorite", "Low-Quality", and "Important". For no defaults, give an empty array \(`[]`\).
-
-{% code title="config.json" %}
-```javascript
-"defaultTags": [["Foo", "#aabbcc"], ["Bar", "#ddeeff"]]
-// defaults are "Foo" (color #aabbcc) and "Bar" (color #ddeeff)
-// format: [[name, color (6 digit hex)]...]
-```
-{% endcode %}
-
-### `defaultProps`
-
-The default properties shown when you're creating a new TagSpace. The default is "Description" of type "String" \(though Title, Size, and Resolution are also included, they are immutable and required so they are not included in the value for this property\). For no defaults, give an empty array \(`[]`\).
-
-```javascript
-"defaultProps": [["Favorite?", "Boolean"], ["Location", "String"]]
-// defaults are "Favorite?" of type "Boolean" and "Location" of type "String"
-// format: [[name, type (String, Number, or Boolean)]...]
-```
 
 ## Slideshow Configuration
 
