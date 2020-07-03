@@ -16,5 +16,5 @@ While in fullscreen mode, all of the menus, asides, and what-not are minimized. 
 
 ### Color Schemes
 
-The only color schemes currently offered are light and dark. To decide it,  However, you can manually configure the theme colors in the JSON \(see [here](../configuration-guide/json-configuration.md#themeoverrides-and-themeinjections) for more info\).
+The only color schemes currently offered are light and dark \(which can be toggled between with the last button in the top bar\). To decide it,  However, you can manually configure the theme colors in the JSON \(see [here](../configuration-guide/json-configuration.md#themeoverrides-and-themeinjections) for more info\).
 
