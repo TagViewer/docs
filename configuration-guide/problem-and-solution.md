@@ -13,5 +13,5 @@ description: 'Find how to solve your problem, quickly and efficiently.'
 **Don't stop the slideshow when I exit fullscreen**: [UI](settings.md#end-the-slideshow-when-you-exit-fullscreen-boolean) \| [JSON](json-configuration.md#endslideshowonfsexit)  
 **Dark theme?**: UI \| [JSON](json-configuration.md#theme)
 
-If an item has no link for UI, it is only configurable in the JSON. Read more about configuring TagViewer in JSON [here](json-configuration.md), or about the JSON format itself [here](https://beginnersbook.com/2015/04/json-tutorial/).
+If an item has no link for UI, it is only configurable in the JSON. Read more about configuring TagViewer in JSON [here](json-configuration.md), or about the JSON format itself [here](https://blog.scottlowe.org/2013/11/08/a-non-programmers-introduction-to-json/).
 
