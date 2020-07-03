@@ -14,3 +14,7 @@ To enter fullscreen mode, press `F11`, use the button in the top bar, or click t
 
 While in fullscreen mode, all of the menus, asides, and what-not are minimized. To open one, you can put your cursor up to the edge of the screen that that section is on. When your cursor exits that section, it will be minimized again.
 
+### Color Schemes
+
+The only color schemes currently offered are light and dark. To decide it,  However, you can manually configure the theme colors in the JSON \(see [here](../configuration-guide/json-configuration.md#themeoverrides-and-themeinjections) for more info\).
+
