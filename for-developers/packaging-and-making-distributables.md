@@ -19,8 +19,6 @@ Making for the following targets: zip, deb, rpm
 
 This indicates that everything ran smoothly.
 
-Then, to make the PKGBUILD for `pacman` distros, download the previous release's PKGBUILD. Change the version number under the `pkgver` variable. Finally, regenerate the checksum with `makepkg -g >> PKGBUILD`, and move the appended `md5sums=('<checksum here>')` where the previous line was \(replace it with this one\). It should be good to go.
-
 ### Issue with `maker-deb`
 
 I've noticed that `maker-deb` doesn't work, because it complains about the Depends field in the control file. It will include something like this:
@@ -35,5 +33,5 @@ For some reason, one of the values in the Depends field is `null`, which breaks 
 if (options.depends) options.depends.forEach((element, index) => { if (!element) options.depends.splice(index, 1) })
 ```
 
-This just removes any null/undefined values from the `options.depends` array.
+This just removes any null values from the `options.depends` array.
 

@@ -6,6 +6,7 @@
 * [Beginner's Guide](beginners-guide/README.md)
   * [The Interface](beginners-guide/the-interface.md)
   * [TagSpaces](beginners-guide/tagspaces.md)
+  * [Media](beginners-guide/media.md)
 * [Step-by-Step Tutorial](step-by-step-tutorial/README.md)
   * [Creating a TagSpace and Adding Media](step-by-step-tutorial/creating-a-tagspace-and-adding-media.md)
 * [Configuration Guide](configuration-guide/README.md)
@@ -17,4 +18,5 @@
   * [Contributing](for-developers/contributing.md)
   * [Packaging and Making Distributables](for-developers/packaging-and-making-distributables.md)
 * [Release Changelog](release-changelog.md)
+* [Contact Me](contact-me.md)
 
