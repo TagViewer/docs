@@ -8,7 +8,7 @@ Begin by opening the latest release on GitHub. There, you'll see the binaries an
 
 ## Windows
 
-Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefore, for now there are no binaries available for Windows. If you are able to package the application on Windows, please [contact me](mailto:mattf53190@gmail.com?subject=TagViewer:+I+can+package+for+Windows) so I can add it to the releases. Please follow the manual installation instructions for Windows below.
+Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefore, for now there are no binaries available for Windows. If you are able to package the application on Windows, please [contact me](mailto:mattf53190@gmail.com?subject=TagViewer:+I+can+package+for+Windows) so I can add it to the releases.
 
 ## MacOS
 
@@ -34,11 +34,11 @@ Snaps, Flatpaks, and any other similar formats are not supported. We suggest tha
 
 ## Manual Installation
 
-If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package for your operating system \(not the source code at the bottom of the binaries list\). \(Note that the internal name for Windows is "win32".\) Extract it in a temporary location. Then follow the steps below for your operating system.
+If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package \(not the source code at the bottom of the binaries list\). Extract it in a temporary location. Then follow the steps below for your operating system.
 
 ### Windows
 
-Move all of the contents to `C:\Program Files\TagViewer` \(You need to create that directory\). If you want, make a shortcut on the desktop, by right-clicking and selecting `New / Shortcut`. For the target, input `C:\Program Files\TagViewer\tagviewer.exe`. You can name the shortcut anything you like, but I suggest "TagViewer". Create the shortcut. You'll need to select the correct icon, so right-click on the shortcut and select Properties. Near the bottom of the popup window, click on Change Icon. Click Browse in the popup window. Input `C:\Program Files\TagViewer\resources\app\icons\macwin\icon.ico`. Click OK and exit the popups. TagViewer is now installed on your system.
+For now, since Windows isn't natively supported, you'll need to install the Windows Subsystem for Linux by following [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10). After that, follow the steps in the Linux section. This is highly experimental and is by no means guaranteed to work.
 
 ### Mac
 
@@ -110,8 +110,4 @@ And to copy the shortcut from /usr/share/applications/tagviewer.desktop to your 
 ```bash
 cp /usr/share/applications/tagviewer.desktop ~/Desktop/tagviewer.desktop
 ```
-
-### Uninstallation
-
-To uninstall TagViewer, delete all files you created/copied while installing. No other interventions are necessary.
 
