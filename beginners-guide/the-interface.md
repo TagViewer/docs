@@ -1,6 +1,6 @@
 # The Interface
 
-When you open TagViewer for the first time, this is how you'll be greeted:
+When you open TagViewer for the first time, this is \(approximately\) how you'll be greeted:
 
 ![](../.gitbook/assets/screenshot-20200704130609-2040x1492.png)
 
