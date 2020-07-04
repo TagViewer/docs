@@ -21,7 +21,7 @@ TagViewer is a simple program that allows viewing of media within a TagSpace, an
 
 **TagViewer Copyright © 2020 Matt Fellenz**
 
-This program comes with _ABSOLUTELY NO WARRANTY;_ read the license for more details. This is free software, and you are welcome to redistribute it under certain conditions, as outlined in the license.
+This program comes with _ABSOLUTELY NO WARRANTY;_ read the license for more details. This is free software \(libre and gratis\), and you are welcome to redistribute it under certain conditions, as outlined in the license.
 
 TagViewer is licensed under the GNU General Public License 3.0. For more information, view [the license](https://www.gnu.org/licenses/gpl-3.0.en.html) here.
 
