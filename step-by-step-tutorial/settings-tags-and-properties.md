@@ -7,6 +7,8 @@ Now that you're in your TagSpace, let's explore tags and properties.
 3. Set the description and title \(which is by default the name of the file\) of the media.
 4. Unset the description.
 
+Note that the size and resolution properties are immutable \(they appear as inputs for consistency\). Additionally, you cannot unset the title.
+
 ### Images
 
 ![Step 1: The Properties tab is selected in the Aside.](../.gitbook/assets/screenshot-20200704151657-2040x1492.png)
