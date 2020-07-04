@@ -1,6 +1,6 @@
 # Packaging and Making Distributables
 
-Packaging and making distributables is a simple process. However, please note that to make a package for an OS, you need to be on that OS. This does not apply to the `.zip` package.
+Packaging and making distributables is a simple process. However, please note that to make a package for an OS, you need to be on that OS \(excluding Windows zip—if you have Wine and Mono installed, you can build it on Linux or Mac as well\). This does not apply to the `.zip` package.
 
 To make the distributables, just run `npm run make`. If you're on Linux, you should see something like this:
 
@@ -19,6 +19,12 @@ Making for the following targets: zip, deb, rpm
 
 This indicates that everything ran smoothly.
 
+Then, to make the PKGBUILD for `pacman` distros, download the previous release's PKGBUILD. Change the version number under the `pkgver` variable. Finally, regenerate the checksum with `makepkg -g >> PKGBUILD`, and move the appended `md5sums=('<checksum here>')` where the previous line was \(replace it with this one\). It should be good to go.
+
+### Making the .zip for Windows on other OSes
+
+If you have npx, it's as simple as `npx @electron-forge/cli make --platforms=win32 --targets=@electron-forge/maker-zip`. If not, run `node_modules/.bin/electron-forge make --platforms=win32 --targets=@electron-forge/maker-zip`
+
 ### Issue with `maker-deb`
 
 I've noticed that `maker-deb` doesn't work, because it complains about the Depends field in the control file. It will include something like this:
@@ -33,5 +39,5 @@ For some reason, one of the values in the Depends field is `null`, which breaks 
 if (options.depends) options.depends.forEach((element, index) => { if (!element) options.depends.splice(index, 1) })
 ```
 
-This just removes any null values from the `options.depends` array.
+This just removes any null/undefined values from the `options.depends` array.
 
