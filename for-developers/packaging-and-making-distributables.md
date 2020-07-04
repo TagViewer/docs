@@ -23,7 +23,17 @@ Then, to make the PKGBUILD for `pacman` distros, download the previous release's
 
 ### Making the .zip for Windows on other OSes
 
-If you have npx, it's as simple as `npx @electron-forge/cli make --platforms=win32 --targets=@electron-forge/maker-zip`. If not, run `node_modules/.bin/electron-forge make --platforms=win32 --targets=@electron-forge/maker-zip`
+With npx:
+
+```bash
+npx @electron-forge/cli make --platforms=win32 --targets=@electron-forge/maker-zip
+```
+
+Without:
+
+```bash
+node_modules/.bin/electron-forge make --platforms=win32 --targets=@electron-forge/maker-zip
+```
 
 ### Issue with `maker-deb`
 
@@ -33,7 +43,7 @@ I've noticed that `maker-deb` doesn't work, because it complains about the Depen
 'Depends' field, missing package name, or garbage where package name expected
 ```
 
-For some reason, one of the values in the Depends field is `null`, which breaks `dpkg-deb`. To fix this, add the following line to `node_modules/electron-installer-common/src/template.js` after `await fs.ensureDir(path.dirname(dest), '0755')`:
+For some reason, one of the values in the Depends field is `null` or `undefined`, which breaks `dpkg-deb`. To fix this, add the following line to `node_modules/electron-installer-common/src/template.js` after `await fs.ensureDir(path.dirname(dest), '0755')`:
 
 ```javascript
 if (options.depends) options.depends.forEach((element, index) => { if (!element) options.depends.splice(index, 1) })
