@@ -11,6 +11,7 @@
   * [Miscellaneous](beginners-guide/untitled.md)
 * [Step-by-Step Tutorial](step-by-step-tutorial/README.md)
   * [Creating a TagSpace and Adding Media](step-by-step-tutorial/creating-a-tagspace-and-adding-media.md)
+  * [Settings Tags and Properties](step-by-step-tutorial/settings-tags-and-properties.md)
 * [Configuration Guide](configuration-guide/README.md)
   * [Problem & Solution](configuration-guide/problem-and-solution.md)
   * [Themes](configuration-guide/themes.md)
