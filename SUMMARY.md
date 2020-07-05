@@ -14,6 +14,7 @@
   * [Setting Tags and Properties](step-by-step-tutorial/settings-tags-and-properties.md)
   * [Modifying the Media in an Existing TagSpace](step-by-step-tutorial/modifying-the-media-in-an-existing-tagspace.md)
   * [Navigating Between Items](step-by-step-tutorial/navigating-between-items.md)
+  * [Filters](step-by-step-tutorial/filters.md)
 * [Configuration Guide](configuration-guide/README.md)
   * [Problem & Solution](configuration-guide/problem-and-solution.md)
   * [Themes](configuration-guide/themes.md)
@@ -24,4 +25,5 @@
   * [Packaging and Making Distributables](for-developers/packaging-and-making-distributables.md)
 * [Release Changelog](release-changelog.md)
 * [Contact Me](contact-me.md)
+* [Credit](credit.md)
 
