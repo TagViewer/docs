@@ -1,4 +1,4 @@
-# Settings Tags and Properties
+# Setting Tags and Properties
 
 Now that you're in your TagSpace, let's explore tags and properties.
 
