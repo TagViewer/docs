@@ -14,7 +14,7 @@ Now that you've read that, let's start by making a TagSpace.
 
 You'll now be in that TagSpace.
 
-### Screenshots
+### Images
 
 ![Step 1: Click the 2nd button in the top bar.](../.gitbook/assets/screenshot-from-2020-07-04-13-06-32.png)
 

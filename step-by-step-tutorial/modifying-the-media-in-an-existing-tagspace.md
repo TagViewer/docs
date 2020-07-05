@@ -12,7 +12,9 @@ After you've completed these steps, make sure you have more than one item in the
 
 ![Step 1: The location of the Add Media button in the Top Bar](../.gitbook/assets/screenshot-from-2020-07-05-09-46-06.png)
 
-![Step 2: The location of the Delete Media button in the Top Bar](../.gitbook/assets/screenshot-from-2020-07-05-09-48-22.png)
+![Step 2: The location of the Delete Media button in the Top Bar \(Notice the additional media in the File List\)](../.gitbook/assets/screenshot-from-2020-07-05-09-48-22.png)
 
-![Step 3: The location of the Replace Media button in the Top Bar](../.gitbook/assets/screenshot-from-2020-07-05-09-49-37.png)
+![Step 3: The location of the Replace Media button in the Top Bar \(Notice that Pisa isn&apos;t in the File List\)](../.gitbook/assets/screenshot-from-2020-07-05-09-49-37.png)
+
+
 
