@@ -12,7 +12,7 @@ Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefor
 
 ## MacOS
 
-Since you need a Mac to make a package for MacOS, at the moment there are no packages for MacOS. If you are able to package the application for MacOS, please [contact me](mailto:mattf53190@gmail.com?subject=TagViewer:+I+can+package+for+MacOS) so I can add it to the releases.
+Download the MacOS \(named "darwin"\) zip and extract it. The only file is the binary. Double-click on it or right-click and select "Open" to start TagViewer.
 
 ## Linux
 
@@ -34,7 +34,7 @@ Snaps, Flatpaks, and any other similar formats are not supported. We suggest tha
 
 ## Manual Installation
 
-If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package for your operating system \(not the source code at the bottom of the binaries list\). \(Note that the internal name for Windows is "win32".\) Extract it in a temporary location. Then follow the steps below for your operating system.
+If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package for your operating system \(not the source code at the bottom of the binaries list\). \(Note that the internal name for Windows is "win32", and for Mac it's "darwin".\) Extract it in a temporary location. Then follow the steps below for your operating system.
 
 ### Windows
 
@@ -42,7 +42,7 @@ Move all of the contents to `C:\Program Files\TagViewer` \(You need to create th
 
 ### Mac
 
-Not supported.
+N/A. See above.
 
 ### Linux
 

@@ -14,5 +14,5 @@ And of course, you'll have to [install TagViewer](installation.md) before you ca
 
 ## Configuration Guide
 
-This is how you make TagViewer work exactly as you want. **This is for more advanced users.** Start [here](configuration-guide/).
+This is how you make TagViewer work exactly as you want. **It's for more advanced users.** Start [here](configuration-guide/).
 
