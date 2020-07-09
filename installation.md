@@ -46,7 +46,7 @@ N/A. See above.
 
 ### Linux
 
-* Install the following dependencies:
+* Install the following dependencies \(if any of them are not available, you probably don't need them\):
   * libgtk-3-0
   * libnotify4
   * libnss3
