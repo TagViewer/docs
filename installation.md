@@ -12,7 +12,7 @@ Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefor
 
 ## MacOS
 
-Download the MacOS \(named "darwin"\) zip and extract it. The only file is the binary. Double-click on it or right-click and select "Open" to start TagViewer.
+Download the MacOS zip and extract it. The only file is the binary. Double-click on it or right-click and select "Open" to start TagViewer.
 
 ## Linux
 
@@ -34,7 +34,7 @@ Snaps, Flatpaks, and any other similar formats are not supported. We suggest tha
 
 ## Manual Installation
 
-If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package for your operating system \(not the source code at the bottom of the binaries list\). \(Note that the internal name for Windows is "win32", and for Mac it's "darwin".\) Extract it in a temporary location. Then follow the steps below for your operating system.
+If your operating system isn't currently supported, you can also perform a manual installation. Begin by downloading the .zip package for your operating system \(not the source code at the bottom of the binaries list\). Extract it in a temporary location. Then follow the steps below for your operating system.
 
 ### Windows
 
