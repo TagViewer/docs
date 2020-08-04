@@ -4,6 +4,16 @@ description: Release versioning conforms to the SemVer specification.
 
 # Release Changelog
 
+### v1.1.1
+
+#### Adds
+
+* TagSpace Error Detection: If there are errors in the manifest file for the TagSpace, TagViewer will refuse to open it to prevent further corruption.
+
+#### Fixes/Improves
+
+* Removing Items from TagSpace: Removing an item previously caused metadata modification to not work correctly, due to an error in the internal manifest.
+
 ### v1.1.0
 
 #### Adds
