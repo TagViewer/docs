@@ -12,7 +12,7 @@ Squirrel.Windows does not work on Linux or Windows \(at least for me\). Therefor
 
 ## MacOS
 
-Download the MacOS zip and extract it. The only file is the binary. Double-click on it or right-click and select "Open" to start TagViewer.
+Download the MacOS zip and extract it. Copy the `TagViewer.app` folder to `/Applications`. You may need to give your password since the directory is protected.
 
 ## Linux
 

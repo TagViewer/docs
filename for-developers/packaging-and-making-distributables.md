@@ -55,7 +55,7 @@ This just removes any null/undefined values from the `options.depends` array.
 
 Currently we don't offer a .dmg; the configuration is only there if it works in the future. The error can be safely ignored as the .zip was made successfully.
 
-### Authoring a PKGBUILD \(for Arch Linux\)
+### Authoring a PKGBUILD
 
 The only change you'll need to make to the PKGBUILD is updating the MD5 hash of the source, which can be done with `makepkg -g >> PKGBUILD`. Then take the added line and use it to replace the existing one.
 
