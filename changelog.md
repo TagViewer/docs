@@ -4,6 +4,22 @@ description: Release versioning conforms to the SemVer specification.
 
 # Release Changelog
 
+### v1.1.2
+
+#### Adds
+
+\(What do you expect? This is a [patch release](https://semver.org/), after all!\)
+
+#### Fixes/Improves
+
+* Garbled Properties menu when configuring a TagSpace.
+* Smaller Packages: We have achieved ~200KB reduction by omitting unnecessary files.
+* Critical Issue for New Users: The app would not work at all since certain properties weren't in the cache file.
+
+#### Removes
+
+* Remove DevTools Support within Dialogs: This decreases the window load time by reducing Electron overhead.
+
 ### v1.1.1
 
 #### Adds
