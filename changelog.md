@@ -4,11 +4,19 @@ description: Release versioning conforms to the SemVer specification.
 
 # Release Changelog
 
-### v1.1.2
+## v1.1.3
+
+This release fixes a critical bug that essentially rendered TagViewer partially unusable. Please upgrade.
+
+#### Fixes/Improves
+
+* Critical Bugfix: Items added after the TagSpace was created were broken and unresponsive to modifications such as adding/removing tags and settings properties.
+
+## v1.1.2
 
 #### Adds
 
-\(What do you expect? This is a [patch release](https://semver.org/), after all!\)
+\(What do you expect? This is a [patch release](https://semver.org/#spec-item-6), after all!\)
 
 #### Fixes/Improves
 
@@ -20,7 +28,7 @@ description: Release versioning conforms to the SemVer specification.
 
 * Remove DevTools Support within Dialogs: This decreases the window load time by reducing Electron overhead.
 
-### v1.1.1
+## v1.1.1
 
 #### Adds
 
@@ -30,7 +38,9 @@ description: Release versioning conforms to the SemVer specification.
 
 * Removing Items from TagSpace: Removing an item previously caused metadata modification to not work correctly, due to an error in the internal manifest.
 
-### v1.1.0
+## v1.1.0
+
+This is the first minor release. There are many new features that I'm happy to present.
 
 #### Adds
 
@@ -54,11 +64,11 @@ description: Release versioning conforms to the SemVer specification.
 * Disable spellcheck in the filter quake dialog: while a spellchecker that worked would be helpful, the built-in one was not.
 * Limit the open history to ten entries.
 
-### v1.0.1
+## v1.0.1
 
 Fix a critical bug where users could access functions that relied on information that was not available \(for example, configuring a TagSpace when one is not open\).
 
-### v1.0.0
+## v1.0.0
 
 The first release, so no changelog yet.
 
