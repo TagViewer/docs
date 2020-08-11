@@ -4,19 +4,11 @@ description: Release versioning conforms to the SemVer specification.
 
 # Release Changelog
 
-### v1.1.3
-
-This release fixes a critical bug that essentially rendered TagViewer partially unusable. Please upgrade.
-
-#### Fixes/Improves
-
-* Critical Bugfix: Items added after the TagSpace was created were broken and unresponsive to modifications such as adding/removing tags and settings properties.
-
 ### v1.1.2
 
 #### Adds
 
-\(What do you expect? This is a [patch release](https://semver.org/#spec-item-6), after all!\)
+\(What do you expect? This is a [patch release](https://semver.org/), after all!\)
 
 #### Fixes/Improves
 
@@ -39,8 +31,6 @@ This release fixes a critical bug that essentially rendered TagViewer partially 
 * Removing Items from TagSpace: Removing an item previously caused metadata modification to not work correctly, due to an error in the internal manifest.
 
 ### v1.1.0
-
-This is the first minor release. There are many new features that I'm happy to present.
 
 #### Adds
 

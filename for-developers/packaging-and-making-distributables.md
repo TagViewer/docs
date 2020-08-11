@@ -2,7 +2,7 @@
 
 Packaging and making distributables is a simple process. However, please note that to make a package for an OS, you need to be on that OS \(excluding Windows zip—if you have Wine and Mono installed, you can build it on Linux or Mac as well\).
 
-To make the distributables, just run `npm run make`. If you're on Linux, you should see something like this:
+To make the distributables, just run `npm run make`. If you're on Linux, you should see something like this, and if not, it will be similar but different targets will be listed:
 
 ```text
 ✔ Checking your system
