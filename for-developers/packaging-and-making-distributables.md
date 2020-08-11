@@ -19,7 +19,7 @@ Making for the following targets: zip, deb, rpm
 
 This indicates that everything ran smoothly.
 
-Then, to make the PKGBUILD for `pacman` distros, download the previous release's PKGBUILD. Change the version number under the `pkgver` variable. Finally, regenerate the checksum with `makepkg -g >> PKGBUILD`, and move the appended `md5sums=('<checksum here>')` where the previous line was \(replace it with this one\). It should be good to go.
+Then, to make the PKGBUILD for `pacman` distros, download the previous release's PKGBUILD. Simply update the version number under the `pkgver` variable and it should be good to go.
 
 ### Making the .zip for Windows on other OSes \(requires Mono and Wine\)
 
