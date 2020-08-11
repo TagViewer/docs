@@ -1,6 +1,6 @@
 # Packaging and Making Distributables
 
-Packaging and making distributables is a simple process. However, please note that to make a package for an OS, you need to be on that OS \(excluding Windows zip—if you have Wine and Mono installed, you can build it on Linux or Mac as well\). This does not apply to the `.zip` package.
+Packaging and making distributables is a simple process. However, please note that to make a package for an OS, you need to be on that OS \(excluding Windows zip—if you have Wine and Mono installed, you can build it on Linux or Mac as well\).
 
 To make the distributables, just run `npm run make`. If you're on Linux, you should see something like this:
 
@@ -55,7 +55,7 @@ This just removes any null/undefined values from the `options.depends` array.
 
 Currently we don't offer a .dmg; the configuration is only there if it works in the future. The error can be safely ignored as the .zip was made successfully.
 
-### Authoring a PKGBUILD
+### Authoring a PKGBUILD \(for Arch Linux\)
 
 The only change you'll need to make to the PKGBUILD is updating the MD5 hash of the source, which can be done with `makepkg -g >> PKGBUILD`. Then take the added line and use it to replace the existing one.
 
