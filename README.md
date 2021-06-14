@@ -4,8 +4,10 @@ description: We hope that you're able to find the help you need.
 
 # Welcome to TagViewer's documentation!
 
-{% hint style="info" %}
-TagViewer 3 is in development! This complete rewrite intends to keep as much as possible the same while also removing Electron and JavaScript and instead relying on Qt5 and C++. Notable changes include using SQLite for backing (though a conversion tool will be provided).
+{% hint style="warning" %}
+TagViewer 3 is in development! This complete rewrite intends to keep as much as possible the same while also removing Electron and JavaScript and instead relying on Qt5 and C++. Notable changes include using SQLite for backing \(though a conversion tool will be provided\).
+
+This documentation is currently for TagViewer 1.
 {% endhint %}
 
 ## Getting Started
